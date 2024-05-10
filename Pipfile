@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 psycopg2 = "*"
+pymongo = {extras = ["srv"], version = "==3.11"}
 
 [dev-packages]
 
